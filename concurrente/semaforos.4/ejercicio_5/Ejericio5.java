@@ -59,9 +59,10 @@ public class Ejericio5 {
 			}
 		};
 
+		c.start();
 		a.start();
 		b.start();
-		c.start();
+
 
 	}
 
