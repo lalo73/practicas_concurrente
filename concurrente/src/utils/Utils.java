@@ -4,8 +4,8 @@ import java.util.concurrent.Semaphore;
 
 public class Utils {
 
-	public static void print(String string) {
-		System.out.println(string);
+	public static void print(Object object) {
+		System.out.println(object);
 	}
 
 	public static void acquire(Semaphore semaphore) {
